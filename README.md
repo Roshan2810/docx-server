@@ -1,7 +1,7 @@
 # docx-server
 
 # step 1:
-npm i
+# npm i
 
 # step 2:
-nodemon server.js
+# nodemon server.js
