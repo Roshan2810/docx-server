@@ -12,6 +12,9 @@ app.post('/uploadHtml', (req, res) => {
         fs.writeFileSync('./new.html', String(req.body.data))
         console.log('wrting completed...')
         htmlToDocx()
+        res.statusCode = 200
+        res.statusMessage = "Uploaded successfully"
+        res.send()
     })
 });
 
