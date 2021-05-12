@@ -2,9 +2,11 @@ const express = require('express');
 const app = express()
 const fs = require('fs');
 const { htmlToDocx } = require('./utils');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+const path = require('path');
 
 app.use(bodyParser.json({ limit: '10mb' }))
+
 
 app.post('/uploadHtml', (req, res) => {
     fs.unlink("./new.html", (err) => {
@@ -17,5 +19,9 @@ app.post('/uploadHtml', (req, res) => {
         res.send()
     })
 });
+
+app.get('/getDocx', (req, res) => {
+    res.sendFile(`${path.join(__dirname)}/test.docx`)
+})
 
 app.listen(8080)
