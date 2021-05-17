@@ -7,7 +7,6 @@ const path = require('path');
 
 app.use(bodyParser.json({ limit: '10mb' }))
 
-
 app.post('/uploadHtml', (req, res) => {
     fs.unlink("./new.html", (err) => {
         console.log('wrting started...')
@@ -25,3 +24,4 @@ app.get('/getDocx', (req, res) => {
 })
 
 app.listen(8080)
+// htmlToDocx();
