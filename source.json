@@ -1,0 +1,2664 @@
+{
+    "count": 2,
+    "data": [
+        {
+            "text_blocks": [
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "c0e199e298014e7eb300ab8866bc9566",
+                    "block_identifier": "ffdcab19-a016-4f5c-a426-86b412ac845f",
+                    "cell_index": [
+                        0,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "12a8eb2a88294f50b5cb0d24258ea6e0",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Screen Reader",
+                            "text_height": 17,
+                            "text_left": 116,
+                            "text_top": 400,
+                            "text_width": 98
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " Screen Reader",
+                    "text_height": 30,
+                    "text_left": 107,
+                    "text_top": 392,
+                    "text_width": 122,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|c0e199e298014e7eb300ab8866bc9566",
+                            "s0_src": "Screen Reader",
+                            "s0_tgt": "\u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0930\u0940\u0921\u0930",
+                            "s_id": "a30c8f48-c4bd-468c-9a65-4131f40ae4f5",
+                            "src": "Screen Reader",
+                            "tagged_src": "Screen Reader",
+                            "tagged_tgt": "\u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0930\u0940\u0921\u0930",
+                            "tgt": "\u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0930\u0940\u0921\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "6b606ee22adb481399d1ec80bbba9af8",
+                    "block_identifier": "289883dc-25ef-49ad-a80f-bae3c5e413e2",
+                    "cell_index": [
+                        0,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "520dd40039ec4c778b69e44366d0694b",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Responses",
+                            "text_height": 17,
+                            "text_left": 238,
+                            "text_top": 400,
+                            "text_width": 72
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " Responses",
+                    "text_height": 30,
+                    "text_left": 228,
+                    "text_top": 392,
+                    "text_width": 97,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|6b606ee22adb481399d1ec80bbba9af8",
+                            "s0_src": "Responses",
+                            "s0_tgt": "\u091c\u0935\u093e\u092c",
+                            "s_id": "344001f6-7674-4eac-b827-28c38bf6de63",
+                            "src": "Responses",
+                            "tagged_src": "Responses",
+                            "tagged_tgt": "\u091c\u0935\u093e\u092c",
+                            "tgt": "\u091c\u0935\u093e\u092c",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "693adfad15604ff7981f28e04c0862c5",
+                    "block_identifier": "6e18154a-0fdc-4556-9884-f7ad2df021ef",
+                    "cell_index": [
+                        0,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "f95f8fa142744922b149ff9702a43384",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Share ",
+                            "text_height": 17,
+                            "text_left": 333,
+                            "text_top": 400,
+                            "text_width": 43
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " Share ",
+                    "text_height": 30,
+                    "text_left": 324,
+                    "text_top": 392,
+                    "text_width": 67,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|693adfad15604ff7981f28e04c0862c5",
+                            "s0_src": "Share",
+                            "s0_tgt": "\u0936\u0947\u092f\u0930",
+                            "s_id": "f6e8884b-f93c-4e1b-b42a-5eed82618408",
+                            "src": "Share",
+                            "tagged_src": "Share",
+                            "tagged_tgt": "\u0936\u0947\u092f\u0930",
+                            "tgt": "\u0936\u0947\u092f\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "960221cc7b62429f8d7f7cd25871ecd3",
+                    "block_identifier": "a9c0d6a7-c1d3-464f-9935-3bbe017bec49",
+                    "cell_index": [
+                        1,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "66258512cab04c4c873091c6a3432774",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "JAWS",
+                            "text_height": 17,
+                            "text_left": 116,
+                            "text_top": 430,
+                            "text_width": 37
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " JAWS",
+                    "text_height": 31,
+                    "text_left": 107,
+                    "text_top": 421,
+                    "text_width": 122,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|960221cc7b62429f8d7f7cd25871ecd3",
+                            "s0_src": "JAWS",
+                            "s0_tgt": "\u091c\u0942\u0901",
+                            "s_id": "63371bdf-0686-4a86-bb61-d50d5e3c547b",
+                            "src": "JAWS",
+                            "tagged_src": "Jaws",
+                            "tagged_tgt": "\u091c\u0942\u0901",
+                            "tgt": "\u091c\u0942\u0901",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "1ef975905e4043c68675afbf2934f89f",
+                    "block_identifier": "1bbe1eaf-c9d0-4215-b268-de4b75b0d3f9",
+                    "cell_index": [
+                        1,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "95f1ff0070e84b0babb74f97b5698a13",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 853,
+                            "text_height": 17,
+                            "text_left": 238,
+                            "text_top": 430,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 853",
+                    "text_height": 31,
+                    "text_left": 228,
+                    "text_top": 421,
+                    "text_width": 97,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|1ef975905e4043c68675afbf2934f89f",
+                            "s0_src": "853",
+                            "s0_tgt": "853",
+                            "s_id": "3a126aaf-db21-40e3-9097-d260ad459a6d",
+                            "src": "853",
+                            "tagged_src": "853",
+                            "tagged_tgt": "853",
+                            "tgt": "853",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "e2fb6d2a219544bdb1b6e6237168660c",
+                    "block_identifier": "89d1be65-0ca2-43da-bfd2-5b9f7e4fda4e",
+                    "cell_index": [
+                        1,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "859cd02a95e043eebac2c080bb5f0745",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "49% ",
+                            "text_height": 17,
+                            "text_left": 333,
+                            "text_top": 430,
+                            "text_width": 32
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 49% ",
+                    "text_height": 31,
+                    "text_left": 324,
+                    "text_top": 421,
+                    "text_width": 67,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|e2fb6d2a219544bdb1b6e6237168660c",
+                            "s0_src": "49%",
+                            "s0_tgt": "49% NnUuMm\u0966",
+                            "s_id": "c1a17704-de77-4cb8-8bde-fef95bc79569",
+                            "src": "49%",
+                            "tagged_src": "49% ",
+                            "tagged_tgt": "49% NnUuMm\u0966",
+                            "tgt": "49% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "29de5519862141a7a05dcee30ccd34c6",
+                    "block_identifier": "4b9b3004-04ff-465a-8f1e-bb1b97d1b09d",
+                    "cell_index": [
+                        2,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "28ac6961e3064261b66ea4df58fead37",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "NVDA",
+                            "text_height": 17,
+                            "text_left": 116,
+                            "text_top": 460,
+                            "text_width": 40
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " NVDA",
+                    "text_height": 31,
+                    "text_left": 107,
+                    "text_top": 451,
+                    "text_width": 122,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|29de5519862141a7a05dcee30ccd34c6",
+                            "s0_src": "NVDA",
+                            "s0_tgt": "\u0928\u0935\u0926\u093e",
+                            "s_id": "f91e7994-2675-4d22-98e1-9eb21418a4d1",
+                            "src": "NVDA",
+                            "tagged_src": "Nvda",
+                            "tagged_tgt": "\u0928\u0935\u0926\u093e",
+                            "tgt": "\u0928\u0935\u0926\u093e",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "96035f4cad0949faa2fd8ff2eb605f01",
+                    "block_identifier": "7e72a9c4-fa2e-42ef-ab98-1396428e0ec8",
+                    "cell_index": [
+                        2,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "c82fdd62828e4c849214dc9f6f16831f",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 238,
+                            "text_height": 17,
+                            "text_left": 238,
+                            "text_top": 460,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 238",
+                    "text_height": 31,
+                    "text_left": 228,
+                    "text_top": 451,
+                    "text_width": 97,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|96035f4cad0949faa2fd8ff2eb605f01",
+                            "s0_src": "238",
+                            "s0_tgt": "238",
+                            "s_id": "999078b7-f2df-4fdd-bb4f-9766b01db233",
+                            "src": "238",
+                            "tagged_src": "238",
+                            "tagged_tgt": "238",
+                            "tgt": "238",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "bc01478e73334c0bab37f2a29789e5d9",
+                    "block_identifier": "fb29c016-332e-46db-9ebe-f47070ce2410",
+                    "cell_index": [
+                        2,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "96e8818683de4ed7ababfb2838ecd400",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "14% ",
+                            "text_height": 17,
+                            "text_left": 333,
+                            "text_top": 460,
+                            "text_width": 32
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 14% ",
+                    "text_height": 31,
+                    "text_left": 324,
+                    "text_top": 451,
+                    "text_width": 67,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|bc01478e73334c0bab37f2a29789e5d9",
+                            "s0_src": "14%",
+                            "s0_tgt": "14% NnUuMm\u0966",
+                            "s_id": "856b8b66-b0e4-41ad-bea4-33b70126062c",
+                            "src": "14%",
+                            "tagged_src": "14% ",
+                            "tagged_tgt": "14% NnUuMm\u0966",
+                            "tgt": "14% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "250c47ae31c245ef995d6d228b57f1f5",
+                    "block_identifier": "90b935b8-7167-4482-ad2c-4a4556c57e31",
+                    "cell_index": [
+                        3,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "793f3e3ad62f444985129ab9979471ff",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Window-Eyes",
+                            "text_height": 17,
+                            "text_left": 116,
+                            "text_top": 489,
+                            "text_width": 92
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " Window-Eyes",
+                    "text_height": 30,
+                    "text_left": 107,
+                    "text_top": 481,
+                    "text_width": 122,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|250c47ae31c245ef995d6d228b57f1f5",
+                            "s0_src": "Window-Eyes",
+                            "s0_tgt": "\u0935\u093f\u0902\u0921\u094b-\u0908\u091c\u093c",
+                            "s_id": "cfaba2ad-9a2f-49c4-a0d4-5c75b51838b7",
+                            "src": "Window-Eyes",
+                            "tagged_src": "Window-Eyes",
+                            "tagged_tgt": "\u0935\u093f\u0902\u0921\u094b-\u0908\u091c\u093c",
+                            "tgt": "\u0935\u093f\u0902\u0921\u094b-\u0908\u091c\u093c",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "81fc72aa75d24214ad8ec817a66d423d",
+                    "block_identifier": "c17cc086-0f47-412d-a41d-2cc07bcc8edd",
+                    "cell_index": [
+                        3,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "c0c38eaecd5a441ab7f5c4db2b7099c5",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 214,
+                            "text_height": 17,
+                            "text_left": 238,
+                            "text_top": 489,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 214",
+                    "text_height": 30,
+                    "text_left": 228,
+                    "text_top": 481,
+                    "text_width": 97,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|81fc72aa75d24214ad8ec817a66d423d",
+                            "s0_src": "214",
+                            "s0_tgt": "214",
+                            "s_id": "38715710-f979-4a91-ae18-2e13273ed5ca",
+                            "src": "214",
+                            "tagged_src": "214",
+                            "tagged_tgt": "214",
+                            "tgt": "214",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "0a2954df428c41f59ccdb61824d658aa",
+                    "block_identifier": "23252e9c-89d3-4edb-8636-37f94e8e52ba",
+                    "cell_index": [
+                        3,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "4f9ad514e4a149c6a23d98e6109ba728",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "12% ",
+                            "text_height": 17,
+                            "text_left": 333,
+                            "text_top": 489,
+                            "text_width": 32
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 12% ",
+                    "text_height": 30,
+                    "text_left": 324,
+                    "text_top": 481,
+                    "text_width": 67,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|0a2954df428c41f59ccdb61824d658aa",
+                            "s0_src": "12%",
+                            "s0_tgt": "12% NnUuMm\u0966",
+                            "s_id": "5f1708f1-ab52-4afe-b95e-7ef96f791627",
+                            "src": "12%",
+                            "tagged_src": "12% ",
+                            "tagged_tgt": "12% NnUuMm\u0966",
+                            "tgt": "12% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "e8a346f609e14ca4b4759352d4960311",
+                    "block_identifier": "b48f4c95-5792-4c69-9e68-f4800da7c88a",
+                    "cell_index": [
+                        4,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "7767b48135d448a5acf6c864439f1cff",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "System Access",
+                            "text_height": 17,
+                            "text_left": 116,
+                            "text_top": 519,
+                            "text_width": 97
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " System Access",
+                    "text_height": 31,
+                    "text_left": 107,
+                    "text_top": 510,
+                    "text_width": 122,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|e8a346f609e14ca4b4759352d4960311",
+                            "s0_src": "System Access",
+                            "s0_tgt": "\u0924\u0902\u0924\u094d\u0930 \u0905\u092d\u093f\u0917\u092e",
+                            "s_id": "d655a9b5-6e76-4055-885e-ed2bb3535ad4",
+                            "src": "System Access",
+                            "tagged_src": "System Access",
+                            "tagged_tgt": "\u0924\u0902\u0924\u094d\u0930 \u0905\u092d\u093f\u0917\u092e",
+                            "tgt": "\u0924\u0902\u0924\u094d\u0930 \u0905\u092d\u093f\u0917\u092e",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "6174eb1dcabe4cb7bbad8ee2894a3264",
+                    "block_identifier": "79c0945f-fe42-4aae-a352-4a04918b0832",
+                    "cell_index": [
+                        4,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "5b9df18eac0544e8b5af553951fda6bb",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 181,
+                            "text_height": 17,
+                            "text_left": 238,
+                            "text_top": 519,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 181",
+                    "text_height": 31,
+                    "text_left": 228,
+                    "text_top": 510,
+                    "text_width": 97,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|6174eb1dcabe4cb7bbad8ee2894a3264",
+                            "s0_src": "181",
+                            "s0_tgt": "181",
+                            "s_id": "e14b7370-62a8-410f-a02c-1650ad8db7dc",
+                            "src": "181",
+                            "tagged_src": "181",
+                            "tagged_tgt": "181",
+                            "tgt": "181",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "3b7c97a56da44048b540d886227b3fc0",
+                    "block_identifier": "0b69daf1-3934-4b26-bac7-f65283df0cd5",
+                    "cell_index": [
+                        4,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "c56bf114a3fe46d6b370a12c94be8975",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "10% ",
+                            "text_height": 17,
+                            "text_left": 333,
+                            "text_top": 519,
+                            "text_width": 32
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 10% ",
+                    "text_height": 31,
+                    "text_left": 324,
+                    "text_top": 510,
+                    "text_width": 67,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|3b7c97a56da44048b540d886227b3fc0",
+                            "s0_src": "10%",
+                            "s0_tgt": "10% NnUuMm\u0966",
+                            "s_id": "00f1ff72-d8e1-45d4-be9a-de77600f0dca",
+                            "src": "10%",
+                            "tagged_src": "10% ",
+                            "tagged_tgt": "10% NnUuMm\u0966",
+                            "tgt": "10% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "c15db792b8234a82970b7d70aefbba67",
+                    "block_identifier": "d64d6c6a-7352-47f2-a058-cf418522a34e",
+                    "cell_index": [
+                        5,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "4a76756bf19f42e9a664f534c4006b73",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "VoiceOver",
+                            "text_height": 17,
+                            "text_left": 116,
+                            "text_top": 549,
+                            "text_width": 69
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " VoiceOver",
+                    "text_height": 30,
+                    "text_left": 107,
+                    "text_top": 540,
+                    "text_width": 122,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|c15db792b8234a82970b7d70aefbba67",
+                            "s0_src": "VoiceOver",
+                            "s0_tgt": "\u0935\u0949\u092f\u0938\u0911\u0935\u0930",
+                            "s_id": "43db4407-f86c-4b97-9c91-926792c3e341",
+                            "src": "VoiceOver",
+                            "tagged_src": "VoiceOver",
+                            "tagged_tgt": "\u0935\u0949\u092f\u0938\u0911\u0935\u0930",
+                            "tgt": "\u0935\u0949\u092f\u0938\u0911\u0935\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "6edf10c759444d149b05d99414c1471d",
+                    "block_identifier": "93c189eb-b451-4b99-91b0-448966b3c470",
+                    "cell_index": [
+                        5,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "cf990bfe2d32411d8e37424531c5faf3",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 159,
+                            "text_height": 17,
+                            "text_left": 238,
+                            "text_top": 549,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 159",
+                    "text_height": 30,
+                    "text_left": 228,
+                    "text_top": 540,
+                    "text_width": 97,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|6edf10c759444d149b05d99414c1471d",
+                            "s0_src": "159",
+                            "s0_tgt": "159",
+                            "s_id": "29d7a49d-5182-4ce9-99e5-6d4885c4c971",
+                            "src": "159",
+                            "tagged_src": "159",
+                            "tagged_tgt": "159",
+                            "tgt": "159",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "e9fffbdba70646dda10aef603e32b55f",
+                    "block_identifier": "b61227db-e1a9-49bf-8b2e-c3383f5f9a30",
+                    "cell_index": [
+                        5,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "59b8ccdc45eb4b60841c3327bb195375",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "9% ",
+                            "text_height": 17,
+                            "text_left": 333,
+                            "text_top": 549,
+                            "text_width": 24
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 1,
+                    "text": " 9% ",
+                    "text_height": 30,
+                    "text_left": 324,
+                    "text_top": 540,
+                    "text_width": 67,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|e9fffbdba70646dda10aef603e32b55f",
+                            "s0_src": "9%",
+                            "s0_tgt": "9% NnUuMm\u0966",
+                            "s_id": "b9a098e9-2d7c-4926-b54d-e70ff4cf682a",
+                            "src": "9%",
+                            "tagged_src": "9% ",
+                            "tagged_tgt": "9% NnUuMm\u0966",
+                            "tgt": "9% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "f421fdafee254bd9b8d7d5c3ef7c0e76",
+                    "block_identifier": "702f1de5-dc86-4e6a-91d8-c45e3565b10e",
+                    "cell_index": [
+                        0,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "434d0030763841d7bb5702906fd49c7a",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "May 2012",
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 702,
+                            "text_width": 68
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " May 2012",
+                    "text_height": 31,
+                    "text_left": 243,
+                    "text_top": 693,
+                    "text_width": 288,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|f421fdafee254bd9b8d7d5c3ef7c0e76",
+                            "s0_src": "May 2012",
+                            "s0_tgt": "May 2012",
+                            "s_id": "d1543908-d1c0-47ac-a2b8-97563468c8a5",
+                            "src": "May 2012",
+                            "tagged_src": "May 2012",
+                            "tagged_tgt": "May 2012",
+                            "tgt": "May 2012",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "a18f327673ff4e50830207a56f533afd",
+                    "block_identifier": "6ceb5b51-25bd-4ec4-acf6-5e0d9f92e417",
+                    "cell_index": [
+                        0,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "b99d3f4b3bba409b88bbcc169f9b96dc",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": " September 2010",
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 702,
+                            "text_width": 116
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": "  September 2010",
+                    "text_height": 31,
+                    "text_left": 530,
+                    "text_top": 693,
+                    "text_width": 288,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|a18f327673ff4e50830207a56f533afd",
+                            "s0_src": "September 2010",
+                            "s0_tgt": "September 2010",
+                            "s_id": "6c437123-118b-40ae-9829-8c87825e211e",
+                            "src": "September 2010",
+                            "tagged_src": "September 2010",
+                            "tagged_tgt": "September 2010",
+                            "tgt": "September 2010",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "0c63518ac9b84a22b50e842eee530b17",
+                    "block_identifier": "c5145aa2-a1e9-4478-a7b5-08b97a30a0a2",
+                    "cell_index": [
+                        1,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "e9a725e94b654115ac9ac55fac88e8c9",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Screen Reader",
+                            "text_height": 17,
+                            "text_left": 117,
+                            "text_top": 732,
+                            "text_width": 98
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " Screen Reader",
+                    "text_height": 30,
+                    "text_left": 108,
+                    "text_top": 723,
+                    "text_width": 136,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|0c63518ac9b84a22b50e842eee530b17",
+                            "s0_src": "Screen Reader",
+                            "s0_tgt": "\u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0930\u0940\u0921\u0930",
+                            "s_id": "1b7cd6c0-3f22-456d-89b1-2945111731f7",
+                            "src": "Screen Reader",
+                            "tagged_src": "Screen Reader",
+                            "tagged_tgt": "\u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0930\u0940\u0921\u0930",
+                            "tgt": "\u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u0930\u0940\u0921\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "b0c0a29893364042b42b60a54d843dde",
+                    "block_identifier": "4c8d0de4-7cc3-425b-a0a2-b99bbd1c00cc",
+                    "cell_index": [
+                        1,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "6e96f4a8393d4043befed30fa0e66457",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Responses",
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 732,
+                            "text_width": 72
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " Responses",
+                    "text_height": 30,
+                    "text_left": 243,
+                    "text_top": 723,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|b0c0a29893364042b42b60a54d843dde",
+                            "s0_src": "Responses",
+                            "s0_tgt": "\u091c\u0935\u093e\u092c",
+                            "s_id": "79aa15ec-b70a-4ad2-a4b3-9ee7e6a34dd0",
+                            "src": "Responses",
+                            "tagged_src": "Responses",
+                            "tagged_tgt": "\u091c\u0935\u093e\u092c",
+                            "tgt": "\u091c\u0935\u093e\u092c",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "6dd533881a5c493d816eabcdc88bfd4d",
+                    "block_identifier": "7a67df35-450a-4bde-96e9-b3eec5ac0d9b",
+                    "cell_index": [
+                        1,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "f188c2cd0e044fc1a8425a24df06cf5d",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Share",
+                            "text_height": 17,
+                            "text_left": 395,
+                            "text_top": 732,
+                            "text_width": 39
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " Share",
+                    "text_height": 30,
+                    "text_left": 386,
+                    "text_top": 723,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|6dd533881a5c493d816eabcdc88bfd4d",
+                            "s0_src": "Share",
+                            "s0_tgt": "\u0936\u0947\u092f\u0930",
+                            "s_id": "265daa1a-6b37-48b4-9704-181acb06a9e7",
+                            "src": "Share",
+                            "tagged_src": "Share",
+                            "tagged_tgt": "\u0936\u0947\u092f\u0930",
+                            "tgt": "\u0936\u0947\u092f\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "ab9dad2501384554a1d53c818602179a",
+                    "block_identifier": "0eb4fc04-8a4f-4340-8553-d99c0e637442",
+                    "cell_index": [
+                        1,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "3c9b7030f39444e6a7560fc63d770758",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Responses",
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 732,
+                            "text_width": 72
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " Responses",
+                    "text_height": 30,
+                    "text_left": 530,
+                    "text_top": 723,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|ab9dad2501384554a1d53c818602179a",
+                            "s0_src": "Responses",
+                            "s0_tgt": "\u091c\u0935\u093e\u092c",
+                            "s_id": "5395ad8b-531f-4b15-9874-aca64c2602e8",
+                            "src": "Responses",
+                            "tagged_src": "Responses",
+                            "tagged_tgt": "\u091c\u0935\u093e\u092c",
+                            "tgt": "\u091c\u0935\u093e\u092c",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "BOLD,TABLE",
+                    "avg_line_height": null,
+                    "block_id": "f21821a7e16246ba8d6d607a7e4a73d5",
+                    "block_identifier": "1902a9f2-fa1c-41f2-b398-b5204024884a",
+                    "cell_index": [
+                        1,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "attrib": "BOLD",
+                            "block_id": "302f49a6edcc483fb84d0907f4a51d65",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Share ",
+                            "text_height": 17,
+                            "text_left": 683,
+                            "text_top": 732,
+                            "text_width": 43
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " Share ",
+                    "text_height": 30,
+                    "text_left": 673,
+                    "text_top": 723,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "45b48f14-4c4c-4ade-aaf7-f027c2035528",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|f21821a7e16246ba8d6d607a7e4a73d5",
+                            "s0_src": "Share",
+                            "s0_tgt": "\u0936\u0947\u092f\u0930",
+                            "s_id": "8052d107-6380-43fb-90cb-a22c53666037",
+                            "src": "Share",
+                            "tagged_src": "Share",
+                            "tagged_tgt": "\u0936\u0947\u092f\u0930",
+                            "tgt": "\u0936\u0947\u092f\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "85fc95c3f27548c0b2a06ad7503c9434",
+                    "block_identifier": "d7e9e601-8fa8-4cfc-b71e-ddc585502c6f",
+                    "cell_index": [
+                        2,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "3cf20ed7941546b68f2847fe270c31fd",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "JAWS",
+                            "text_height": 17,
+                            "text_left": 117,
+                            "text_top": 761,
+                            "text_width": 37
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " JAWS",
+                    "text_height": 31,
+                    "text_left": 108,
+                    "text_top": 752,
+                    "text_width": 136,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|85fc95c3f27548c0b2a06ad7503c9434",
+                            "s0_src": "JAWS",
+                            "s0_tgt": "\u091c\u0942\u0901",
+                            "s_id": "d90b88db-13c2-448f-be7a-e8e737f62d7b",
+                            "src": "JAWS",
+                            "tagged_src": "Jaws",
+                            "tagged_tgt": "\u091c\u0942\u0901",
+                            "tgt": "\u091c\u0942\u0901",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "8361999da9e941f7991f88379a62ae68",
+                    "block_identifier": "f578a68f-3d0a-4523-a55a-d295073def30",
+                    "cell_index": [
+                        2,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "5cd00e2065094b48a436afe4ef9fd5e3",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 853,
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 761,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 853",
+                    "text_height": 31,
+                    "text_left": 243,
+                    "text_top": 752,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|8361999da9e941f7991f88379a62ae68",
+                            "s0_src": "853",
+                            "s0_tgt": "853",
+                            "s_id": "6b38df3f-5b58-4c2a-b6b3-a8a267ae6463",
+                            "src": "853",
+                            "tagged_src": "853",
+                            "tagged_tgt": "853",
+                            "tgt": "853",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "ebaa4b5ddd504842a88608400601dd52",
+                    "block_identifier": "d969b535-1a7c-4202-a638-a3e5b1a21918",
+                    "cell_index": [
+                        2,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "00f80a80adbb412b8bb5889a791f86ef",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "49%",
+                            "text_height": 17,
+                            "text_left": 395,
+                            "text_top": 761,
+                            "text_width": 28
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 49%",
+                    "text_height": 31,
+                    "text_left": 386,
+                    "text_top": 752,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|ebaa4b5ddd504842a88608400601dd52",
+                            "s0_src": "49%",
+                            "s0_tgt": "49% NnUuMm\u0966",
+                            "s_id": "5110c042-0163-48c6-9ca7-a478d98cbc63",
+                            "src": "49%",
+                            "tagged_src": "49% ",
+                            "tagged_tgt": "49% NnUuMm\u0966",
+                            "tgt": "49% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "7bfab03c958b4269bc377372349f8787",
+                    "block_identifier": "7962f71e-9212-4204-8d83-ebb560d9eab6",
+                    "cell_index": [
+                        2,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "09924442d95e4ad9a138ac839bf66885",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 727,
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 761,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 727",
+                    "text_height": 31,
+                    "text_left": 530,
+                    "text_top": 752,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|7bfab03c958b4269bc377372349f8787",
+                            "s0_src": "727",
+                            "s0_tgt": "727",
+                            "s_id": "de40235d-7324-4995-9a8d-3e521167b722",
+                            "src": "727",
+                            "tagged_src": "727",
+                            "tagged_tgt": "727",
+                            "tgt": "727",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "90dbf432278543d9bc1945aff36ecd21",
+                    "block_identifier": "88192da9-c3b8-44dc-ba0f-3cf5e77474c7",
+                    "cell_index": [
+                        2,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "efdde7e4bf5f4d218746c8b6aa1d4caf",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "59% ",
+                            "text_height": 17,
+                            "text_left": 683,
+                            "text_top": 761,
+                            "text_width": 32
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 59% ",
+                    "text_height": 31,
+                    "text_left": 673,
+                    "text_top": 752,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|90dbf432278543d9bc1945aff36ecd21",
+                            "s0_src": "59%",
+                            "s0_tgt": "59% NnUuMm\u0966",
+                            "s_id": "9090f6f5-0e50-4a1a-a7c9-361e66321d86",
+                            "src": "59%",
+                            "tagged_src": "59% ",
+                            "tagged_tgt": "59% NnUuMm\u0966",
+                            "tgt": "59% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "e7bc687c0fa242579ef9bdec2b2c2a2e",
+                    "block_identifier": "fe02deac-b16f-41d9-b697-242f5d68bf97",
+                    "cell_index": [
+                        3,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "b75bcf974e5f4ca68d8fcf31db1574f5",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "NVDA",
+                            "text_height": 17,
+                            "text_left": 117,
+                            "text_top": 791,
+                            "text_width": 40
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " NVDA",
+                    "text_height": 31,
+                    "text_left": 108,
+                    "text_top": 782,
+                    "text_width": 136,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|e7bc687c0fa242579ef9bdec2b2c2a2e",
+                            "s0_src": "NVDA",
+                            "s0_tgt": "\u0928\u0935\u0926\u093e",
+                            "s_id": "1a95fb5b-410a-4f01-8486-2f37befa8e75",
+                            "src": "NVDA",
+                            "tagged_src": "Nvda",
+                            "tagged_tgt": "\u0928\u0935\u0926\u093e",
+                            "tgt": "\u0928\u0935\u0926\u093e",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "dbaa2d6c391447a39f251ff99b9e5965",
+                    "block_identifier": "a08f7571-1e5c-474e-9edc-a5e3bb174044",
+                    "cell_index": [
+                        3,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "89d875659d794f9d9ff3b704ef45d449",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 238,
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 791,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 238",
+                    "text_height": 31,
+                    "text_left": 243,
+                    "text_top": 782,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|dbaa2d6c391447a39f251ff99b9e5965",
+                            "s0_src": "238",
+                            "s0_tgt": "238",
+                            "s_id": "7ee14723-527d-4a3b-b758-8ba6bf27b19c",
+                            "src": "238",
+                            "tagged_src": "238",
+                            "tagged_tgt": "238",
+                            "tgt": "238",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "4d01b2944cd249009d84c024d56a93d2",
+                    "block_identifier": "d8bfe30f-d998-470a-a9f3-0d5688bc1e6c",
+                    "cell_index": [
+                        3,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "655f5ab2920f4f83a49bbe5d47113b3c",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "14%",
+                            "text_height": 17,
+                            "text_left": 395,
+                            "text_top": 791,
+                            "text_width": 28
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 14%",
+                    "text_height": 31,
+                    "text_left": 386,
+                    "text_top": 782,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|4d01b2944cd249009d84c024d56a93d2",
+                            "s0_src": "14%",
+                            "s0_tgt": "14% NnUuMm\u0966",
+                            "s_id": "54a02a57-7d7d-4b9d-b21e-db07081ddd54",
+                            "src": "14%",
+                            "tagged_src": "14% ",
+                            "tagged_tgt": "14% NnUuMm\u0966",
+                            "tgt": "14% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "a67098bb957940efaf34bda763761c58",
+                    "block_identifier": "1a64278d-bce8-4f95-8036-a9de7765998e",
+                    "cell_index": [
+                        3,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "fdee69b28e0b4eb7adbd52d41941798c",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 105,
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 791,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 105",
+                    "text_height": 31,
+                    "text_left": 530,
+                    "text_top": 782,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|a67098bb957940efaf34bda763761c58",
+                            "s0_src": "105",
+                            "s0_tgt": "105",
+                            "s_id": "37225c20-dec8-47f0-90ca-c1561cead3f4",
+                            "src": "105",
+                            "tagged_src": "105",
+                            "tagged_tgt": "105",
+                            "tgt": "105",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "3b658fce83bf4fd0a8ba8c5a5d19c493",
+                    "block_identifier": "14e6b5c2-b85b-40b5-917a-9dcff4cac5b5",
+                    "cell_index": [
+                        3,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "010adb2e8cb846ce943ac95ca8ad9162",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "9% ",
+                            "text_height": 17,
+                            "text_left": 683,
+                            "text_top": 791,
+                            "text_width": 24
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 9% ",
+                    "text_height": 31,
+                    "text_left": 673,
+                    "text_top": 782,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|3b658fce83bf4fd0a8ba8c5a5d19c493",
+                            "s0_src": "9%",
+                            "s0_tgt": "9% NnUuMm\u0966",
+                            "s_id": "624f60d6-8fad-4569-aa4a-63e0bd1c26cd",
+                            "src": "9%",
+                            "tagged_src": "9% ",
+                            "tagged_tgt": "9% NnUuMm\u0966",
+                            "tgt": "9% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "c17eefd582434653a1814a61a09dfffa",
+                    "block_identifier": "daa195a4-6206-44c0-beec-1cfe448ed620",
+                    "cell_index": [
+                        4,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "f06b0f84d6ba44dcab868b08dc2a9178",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "Window-Eyes",
+                            "text_height": 17,
+                            "text_left": 117,
+                            "text_top": 820,
+                            "text_width": 91
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " Window-Eyes",
+                    "text_height": 30,
+                    "text_left": 108,
+                    "text_top": 812,
+                    "text_width": 136,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|c17eefd582434653a1814a61a09dfffa",
+                            "s0_src": "Window-Eyes",
+                            "s0_tgt": "\u0935\u093f\u0902\u0921\u094b-\u0908\u091c\u093c",
+                            "s_id": "2a3f0bd0-070e-46f3-b1da-21ab010dcd18",
+                            "src": "Window-Eyes",
+                            "tagged_src": "Window-Eyes",
+                            "tagged_tgt": "\u0935\u093f\u0902\u0921\u094b-\u0908\u091c\u093c",
+                            "tgt": "\u0935\u093f\u0902\u0921\u094b-\u0908\u091c\u093c",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "08d77a8bde0c46eb8f5daecf0e535ccd",
+                    "block_identifier": "71df9568-4c28-4d85-adc6-98fdb1f439db",
+                    "cell_index": [
+                        4,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "e63d1f54c6c24e1d8a747e6717ea1a14",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 214,
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 820,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 214",
+                    "text_height": 30,
+                    "text_left": 243,
+                    "text_top": 812,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|08d77a8bde0c46eb8f5daecf0e535ccd",
+                            "s0_src": "214",
+                            "s0_tgt": "214",
+                            "s_id": "84e41d6a-789c-4431-a90a-1897ef923d09",
+                            "src": "214",
+                            "tagged_src": "214",
+                            "tagged_tgt": "214",
+                            "tgt": "214",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "fdd2e6050456408790008b3fc9d8d39c",
+                    "block_identifier": "0fcb0338-f7db-4632-b919-2380d7dfa078",
+                    "cell_index": [
+                        4,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "8064455cdbfa45d1ae31fc4cb75ce6ae",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "12%",
+                            "text_height": 17,
+                            "text_left": 395,
+                            "text_top": 820,
+                            "text_width": 28
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 12%",
+                    "text_height": 30,
+                    "text_left": 386,
+                    "text_top": 812,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|fdd2e6050456408790008b3fc9d8d39c",
+                            "s0_src": "12%",
+                            "s0_tgt": "12% NnUuMm\u0966",
+                            "s_id": "db3f0a5c-43ce-49f7-816c-e38fe427594b",
+                            "src": "12%",
+                            "tagged_src": "12% ",
+                            "tagged_tgt": "12% NnUuMm\u0966",
+                            "tgt": "12% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "128b492242a84b1f95e53f43f24c58db",
+                    "block_identifier": "2b367cc2-6b64-4aa7-8247-0173550651cb",
+                    "cell_index": [
+                        4,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "3c13828f7c9c43e89b723a6e432bcdb4",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 138,
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 820,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 138",
+                    "text_height": 30,
+                    "text_left": 530,
+                    "text_top": 812,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|128b492242a84b1f95e53f43f24c58db",
+                            "s0_src": "138",
+                            "s0_tgt": "138",
+                            "s_id": "30b74f4c-97d7-4a42-868d-b8f5f0e0111b",
+                            "src": "138",
+                            "tagged_src": "138",
+                            "tagged_tgt": "138",
+                            "tgt": "138",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "e52c6a137da149da90d4aff9e4e9208c",
+                    "block_identifier": "b0249c1c-5f7a-410f-a1ec-6ad96feca067",
+                    "cell_index": [
+                        4,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "89ebe6fed77c43a09b7e588ac2443cc5",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "11% ",
+                            "text_height": 17,
+                            "text_left": 683,
+                            "text_top": 820,
+                            "text_width": 32
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 11% ",
+                    "text_height": 30,
+                    "text_left": 673,
+                    "text_top": 812,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|e52c6a137da149da90d4aff9e4e9208c",
+                            "s0_src": "11%",
+                            "s0_tgt": "11% NnUuMm\u0966",
+                            "s_id": "57475f29-d5a1-452a-8512-c47f1218f946",
+                            "src": "11%",
+                            "tagged_src": "11% ",
+                            "tagged_tgt": "11% NnUuMm\u0966",
+                            "tgt": "11% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "424eb6f43bb0418aaefe91739a3ae612",
+                    "block_identifier": "79c5b12f-b41a-4b01-9328-0a742ed41ead",
+                    "cell_index": [
+                        5,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "f68c6778500b413dab87d41cee1717ec",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "System Access",
+                            "text_height": 17,
+                            "text_left": 117,
+                            "text_top": 850,
+                            "text_width": 97
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " System Access",
+                    "text_height": 31,
+                    "text_left": 108,
+                    "text_top": 841,
+                    "text_width": 136,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|424eb6f43bb0418aaefe91739a3ae612",
+                            "s0_src": "System Access",
+                            "s0_tgt": "\u0924\u0902\u0924\u094d\u0930 \u0905\u092d\u093f\u0917\u092e",
+                            "s_id": "856c9437-82ad-4f37-9dd0-1449b50b7ca1",
+                            "src": "System Access",
+                            "tagged_src": "System Access",
+                            "tagged_tgt": "\u0924\u0902\u0924\u094d\u0930 \u0905\u092d\u093f\u0917\u092e",
+                            "tgt": "\u0924\u0902\u0924\u094d\u0930 \u0905\u092d\u093f\u0917\u092e",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "3bb371c4c51c457ea8accf5fa74a81b2",
+                    "block_identifier": "9825a5fb-0d58-4e14-b65e-d567d7eb941c",
+                    "cell_index": [
+                        5,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "c420431f12a34fef8c9ad63861aa441a",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 181,
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 850,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 181",
+                    "text_height": 31,
+                    "text_left": 243,
+                    "text_top": 841,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|3bb371c4c51c457ea8accf5fa74a81b2",
+                            "s0_src": "181",
+                            "s0_tgt": "181",
+                            "s_id": "044fc159-6e51-445b-9e47-7076e287ed90",
+                            "src": "181",
+                            "tagged_src": "181",
+                            "tagged_tgt": "181",
+                            "tgt": "181",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "2a811b0a61cd400e8725d5dcb10ae86c",
+                    "block_identifier": "00038d91-2232-40cf-a542-d88d97d733b1",
+                    "cell_index": [
+                        5,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "4405d718ab3a4ba38dc509380b70880a",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "10%",
+                            "text_height": 17,
+                            "text_left": 395,
+                            "text_top": 850,
+                            "text_width": 28
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 10%",
+                    "text_height": 31,
+                    "text_left": 386,
+                    "text_top": 841,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|2a811b0a61cd400e8725d5dcb10ae86c",
+                            "s0_src": "10%",
+                            "s0_tgt": "10% NnUuMm\u0966",
+                            "s_id": "3ae9afd5-5212-4c31-bfc3-c896edadaf2b",
+                            "src": "10%",
+                            "tagged_src": "10% ",
+                            "tagged_tgt": "10% NnUuMm\u0966",
+                            "tgt": "10% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "de303a7f2ab14e8e93e14e406032e87b",
+                    "block_identifier": "0f22a6a2-dd85-4be9-88ed-06ee1aa711e1",
+                    "cell_index": [
+                        5,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "5d860552039a4afdbb96e28bdf56a5f3",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 58,
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 850,
+                            "text_width": 17
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 58",
+                    "text_height": 31,
+                    "text_left": 530,
+                    "text_top": 841,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|de303a7f2ab14e8e93e14e406032e87b",
+                            "s0_src": "58",
+                            "s0_tgt": "58",
+                            "s_id": "c4edda7a-ee81-4e98-9506-7fb86fd9b817",
+                            "src": "58",
+                            "tagged_src": "58",
+                            "tagged_tgt": "58",
+                            "tgt": "58",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "ef5a2d8233a24a0588b29a0f55cebca6",
+                    "block_identifier": "bb90d9a0-c195-41f6-9f0c-2ca8792282dd",
+                    "cell_index": [
+                        5,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "9406e229f554472692fb19642721a44d",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "5% ",
+                            "text_height": 17,
+                            "text_left": 683,
+                            "text_top": 850,
+                            "text_width": 24
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 5% ",
+                    "text_height": 31,
+                    "text_left": 673,
+                    "text_top": 841,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|ef5a2d8233a24a0588b29a0f55cebca6",
+                            "s0_src": "5%",
+                            "s0_tgt": "5% NnUuMm\u0966",
+                            "s_id": "5a5ddce0-a817-416c-a302-2c9dedf710c6",
+                            "src": "5%",
+                            "tagged_src": "5% ",
+                            "tagged_tgt": "5% NnUuMm\u0966",
+                            "tgt": "5% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "322f55d03dce407d93361232f1b62c11",
+                    "block_identifier": "f9a71df6-a8e0-453b-addc-eb9efac16b6b",
+                    "cell_index": [
+                        6,
+                        0
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "fd80a201385341b18b05c1a4d8bdcab6",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "VoiceOver",
+                            "text_height": 17,
+                            "text_left": 117,
+                            "text_top": 880,
+                            "text_width": 69
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " VoiceOver",
+                    "text_height": 31,
+                    "text_left": 108,
+                    "text_top": 871,
+                    "text_width": 136,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|322f55d03dce407d93361232f1b62c11",
+                            "s0_src": "VoiceOver",
+                            "s0_tgt": "\u0935\u0949\u092f\u0938\u0911\u0935\u0930",
+                            "s_id": "4bd9766d-1246-4c4e-808f-2fb4de695cea",
+                            "src": "VoiceOver",
+                            "tagged_src": "VoiceOver",
+                            "tagged_tgt": "\u0935\u0949\u092f\u0938\u0911\u0935\u0930",
+                            "tgt": "\u0935\u0949\u092f\u0938\u0911\u0935\u0930",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "36f39fd35b6140448111d67f7d1715b0",
+                    "block_identifier": "3145ac8c-5ef1-4814-837b-ca383ca4a5f1",
+                    "cell_index": [
+                        6,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "c41a2bc2ddfc4077b29953bb4306f49c",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 159,
+                            "text_height": 17,
+                            "text_left": 252,
+                            "text_top": 880,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 159",
+                    "text_height": 31,
+                    "text_left": 243,
+                    "text_top": 871,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|36f39fd35b6140448111d67f7d1715b0",
+                            "s0_src": "159",
+                            "s0_tgt": "159",
+                            "s_id": "8ab839ce-77d8-4d95-ac2b-4db4b10a1bd9",
+                            "src": "159",
+                            "tagged_src": "159",
+                            "tagged_tgt": "159",
+                            "tgt": "159",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "7f17a5e04f8949b68db17c76dccaaf67",
+                    "block_identifier": "c32f6cf1-87c9-46ef-a4ac-1d451d12aeab",
+                    "cell_index": [
+                        6,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "2d4a1d43352c479890f0e214e9394c51",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "9%",
+                            "text_height": 17,
+                            "text_left": 395,
+                            "text_top": 880,
+                            "text_width": 20
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 9%",
+                    "text_height": 31,
+                    "text_left": 386,
+                    "text_top": 871,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|7f17a5e04f8949b68db17c76dccaaf67",
+                            "s0_src": "9%",
+                            "s0_tgt": "9% NnUuMm\u0966",
+                            "s_id": "25603073-b75d-4fc0-8bdd-385044a64375",
+                            "src": "9%",
+                            "tagged_src": "9% ",
+                            "tagged_tgt": "9% NnUuMm\u0966",
+                            "tgt": "9% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "a347050986334140abbeea98aef9c7d1",
+                    "block_identifier": "0240e628-b512-4a1e-abc1-fae477e4c077",
+                    "cell_index": [
+                        6,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "fbbc13d360e2416da3a0de0e12b84e54",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": 120,
+                            "text_height": 17,
+                            "text_left": 539,
+                            "text_top": 880,
+                            "text_width": 25
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 120",
+                    "text_height": 31,
+                    "text_left": 530,
+                    "text_top": 871,
+                    "text_width": 144,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|a347050986334140abbeea98aef9c7d1",
+                            "s0_src": "120",
+                            "s0_tgt": "120",
+                            "s_id": "4715e285-608b-4168-a206-28a8d40b7f7f",
+                            "src": "120",
+                            "tagged_src": "120",
+                            "tagged_tgt": "120",
+                            "tgt": "120",
+                            "tmx_phrases": []
+                        }
+                    ]
+                },
+                {
+                    "attrib": "TABLE",
+                    "avg_line_height": null,
+                    "block_id": "cb4d112b05314de1892610820baba516",
+                    "block_identifier": "2d88814d-c61b-4003-8fa9-e04f96c032ba",
+                    "cell_index": [
+                        6,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "attrib": "",
+                            "block_id": "ac914b431e1c47618ceabf380aa6d04d",
+                            "children": null,
+                            "font_color": "#000000",
+                            "font_family": "Carlito",
+                            "font_size": 16,
+                            "text": "10%",
+                            "text_height": 17,
+                            "text_left": 683,
+                            "text_top": 880,
+                            "text_width": 28
+                        }
+                    ],
+                    "font_color": "#000000",
+                    "font_family": "Carlito",
+                    "font_size": 16,
+                    "page_info": {
+                        "page_height": 1188,
+                        "page_no": 2,
+                        "page_width": 918
+                    },
+                    "table_index": 0,
+                    "text": " 10%",
+                    "text_height": 31,
+                    "text_left": 673,
+                    "text_top": 871,
+                    "text_width": 145,
+                    "tokenized_sentences": [
+                        {
+                            "batch_id": "7086c383-a05e-413c-bdbe-e4259e0a138f",
+                            "n_id": "A_FBTTR-uqDws-1621320094287|0-16213201042492547.json|2|cb4d112b05314de1892610820baba516",
+                            "s0_src": "10%",
+                            "s0_tgt": "10% NnUuMm\u0966",
+                            "s_id": "7a1f82f2-09d3-48d2-b56c-b583f66e2951",
+                            "src": "10%",
+                            "tagged_src": "10% ",
+                            "tagged_tgt": "10% NnUuMm\u0966",
+                            "tgt": "10% NnUuMm\u0966",
+                            "tmx_phrases": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "http": {
+        "status": 200
+    },
+    "ok": true,
+    "why": "request successful"
+}
