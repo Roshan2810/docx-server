@@ -3,7 +3,7 @@ const htmlDocx = require("html-to-docx");
 let htmlString = ""
 const HTML = require('html-parse-stringify')
 const { v4: uuidv4 } = require('uuid');
-let table_index = -1
+// let table_index = -1
 
 const htmlToDocx = async () => {
     try {
@@ -146,7 +146,6 @@ const getTag = (isBold, fontSize) => {
 
 const getTableData = (tableData, tokens, row, previous_row, col, previous_col) => {
     let result = []
-    console.log("row", row, "previous_row", previous_row, "col", col, "previous_col", previous_col)
     tokens !== undefined && tokens.tokenized_sentences.forEach(data => {
         if (row === 0 && previous_row === -1) {
             result.push({
@@ -242,54 +241,34 @@ const convertJSONToHTML = async () => {
     let tableArrOfObj = []
     let previous_row = -1
     let previous_col = -1
-    parsedData.data.forEach(textBlocks => {
+    parsedData.data.forEach((textBlocks) => {
+        let table_index = -1
+        let index = 0;
         textBlocks.text_blocks.forEach((tokens, i) => {
             const is_bold = tokens.attrib === 'BOLD' ? true : false;
             const is_table = tokens.attrib === 'TABLE' || tokens.attrib === 'BOLD,TABLE' ? true : false
-            const { font_color, font_family, font_size } = tokens
-            if (is_table) {
-                if (table_index !== tokens.table_index && table_index === -1) {
-                    table_index = tokens.table_index
-                    let row = tokens.cell_index[0]
-                    let col = tokens.cell_index[1]
-                    tableArrOfObj.push(...getTableData(tableArrOfObj, tokens, row, previous_row, col, previous_col))
-                    previous_row = tokens.cell_index[0]
-                    previous_col = tokens.cell_index[1]
-                } else if (table_index === tokens.table_index) {
-                    let row = tokens.cell_index[0]
-                    let col = tokens.cell_index[1]
-                    tableArrOfObj.push(...getTableData(tableArrOfObj, tokens, row, previous_row, col, previous_col))
-                    previous_row = tokens.cell_index[0]
-                    previous_col = tokens.cell_index[1]
-                }
-                else if (table_index > -1) {
-                    let row = tokens.cell_index[0]
-                    let col = tokens.cell_index[1]
-                    previous_row = -1
-                    previous_col = -1
-                    table_index = tokens.table_index
-                    htmlObjects.push({
-                        type: "tag",
-                        name: 'table',
-                        voidElement: false,
-                        attrs: {
-                            id: tokens.block_identifier
-                        },
-
-                        children: tableArrOfObj
-                    })
-                    tableArrOfObj = []
-                    tableArrOfObj.push(...getTableData(tableArrOfObj, tokens, row, previous_row, col, previous_col))
-                }
-            }
+            const { font_color, font_size } = tokens
             tokens.tokenized_sentences.forEach(token => {
                 if (!is_table) {
+                    if (tableArrOfObj.length) {
+                        htmlObjects.push({
+                            type: "tag",
+                            name: 'table',
+                            voidElement: false,
+                            attrs: {
+                                id: textBlocks.text_blocks[i].block_identifier
+                            },
+                            children: tableArrOfObj
+                        })
+                        tableArrOfObj = []
+                    }
                     htmlObjects.push({
                         type: "tag",
                         name: `${getTag(is_bold, font_size)}`,
                         voidElement: false,
                         attrs: {
-                            id: token.s_id
+                            id: token.s_id,
+                            style: `font-size:${16}px; font-family:MS Unicode Arial; color:${font_color}`
                         },
                         children: [
                             {
@@ -298,9 +277,60 @@ const convertJSONToHTML = async () => {
                             }
                         ]
                     })
+                } else {
+                    if (table_index !== textBlocks.text_blocks[i].table_index && table_index === -1) {
+                        // console.log('if', textBlocks.text_blocks[i].table_index)
+                        table_index = textBlocks.text_blocks[i].table_index
+                        let row = textBlocks.text_blocks[i].cell_index[0]
+                        let col = textBlocks.text_blocks[i].cell_index[1]
+                        tableArrOfObj.push(...getTableData(tableArrOfObj, textBlocks.text_blocks[i], row, previous_row, col, previous_col))
+                        previous_row = row
+                        previous_col = col
+                    } else if (table_index === textBlocks.text_blocks[i].table_index) {
+                        // console.log('first else if', textBlocks.text_blocks[i].table_index)
+                        let row = textBlocks.text_blocks[i].cell_index[0]
+                        let col = textBlocks.text_blocks[i].cell_index[1]
+                        tableArrOfObj.push(...getTableData(tableArrOfObj, textBlocks.text_blocks[i], row, previous_row, col, previous_col))
+                        previous_row = row
+                        previous_col = col
+                    }
+                    else if (table_index !== textBlocks.text_blocks[i].table_index) {
+                        // console.log('final else if', textBlocks.text_blocks[i].table_index)
+                        htmlObjects.push({
+                            type: "tag",
+                            name: 'table',
+                            voidElement: false,
+                            attrs: {
+                                id: textBlocks.text_blocks[i].block_identifier
+                            },
+                            children: tableArrOfObj
+                        })
+                        tableArrOfObj = []
+                        let row = textBlocks.text_blocks[i].cell_index[0]
+                        let col = textBlocks.text_blocks[i].cell_index[1]
+                        previous_row = -1
+                        previous_col = -1
+                        table_index = textBlocks.text_blocks[i].table_index
+                        tableArrOfObj.push(...getTableData(tableArrOfObj, textBlocks.text_blocks[i], row, previous_row, col, previous_col))
+                        previous_row = row
+                        previous_col = col
+                    }
                 }
+                index = i
             })
         })
+        if (tableArrOfObj.length) {
+            htmlObjects.push({
+                type: "tag",
+                name: 'table',
+                voidElement: false,
+                attrs: {
+                    id: textBlocks.text_blocks[index].block_identifier
+                },
+                children: tableArrOfObj
+            })
+            tableArrOfObj = []
+        }
     })
     fs.writeFileSync('./newSource.json', JSON.stringify(htmlObjects))
     let htmlData = HTML.stringify(htmlObjects)
@@ -317,10 +347,6 @@ const convertJSONToHTML = async () => {
         }
         console.log('Docx file created successfully');
     });
-
-    // var ast = HTML.parse(`<p id='1234' style={font-size:36px color:red}>`)
-    // console.log(ast)
-
 }
 
 module.exports = {
