@@ -3,6 +3,7 @@ const htmlDocx = require("html-to-docx");
 let htmlString = ""
 const HTML = require('html-parse-stringify')
 const { v4: uuidv4 } = require('uuid');
+const e = require('express');
 // let table_index = -1
 
 const htmlToDocx = async () => {
@@ -154,7 +155,7 @@ const getTableData = (tableData, tokens, row, previous_row, col, previous_col) =
                 voidElement: false,
                 attrs: {
                     id: data.s_id,
-
+                    style: `position:absolute;top:${data.text_top}pt; left:${data.text_left}pt`
                 },
                 children: [
                     {
@@ -174,7 +175,7 @@ const getTableData = (tableData, tokens, row, previous_row, col, previous_col) =
                 ]
             })
         } else if (row === 0 && row === previous_row && col !== previous_col) {
-            tableData[row].children.push({
+            tableData[row] !== undefined && tableData[row].children.push({
                 type: 'tag',
                 name: 'th',
                 voidElement: false,
@@ -214,7 +215,7 @@ const getTableData = (tableData, tokens, row, previous_row, col, previous_col) =
                 ]
             })
         } else {
-            tableData[row].children.push({
+            tableData[row] !== undefined && tableData[row].children.push({
                 type: 'tag',
                 name: 'td',
                 voidElement: false,
@@ -244,10 +245,10 @@ const convertJSONToHTML = async () => {
     parsedData.data.forEach((textBlocks) => {
         let table_index = -1
         let index = 0;
-        textBlocks.text_blocks.forEach((tokens, i) => {
+        textBlocks.text_blocks !== undefined && textBlocks.text_blocks.forEach((tokens, i) => {
             const is_bold = tokens.attrib === 'BOLD' ? true : false;
             const is_table = tokens.attrib === 'TABLE' || tokens.attrib === 'BOLD,TABLE' ? true : false
-            const { font_color, font_size } = tokens
+            const { font_color, font_size, text_left, text_top } = tokens
             tokens.tokenized_sentences.forEach(token => {
                 if (!is_table) {
                     if (tableArrOfObj.length) {
@@ -256,7 +257,8 @@ const convertJSONToHTML = async () => {
                             name: 'table',
                             voidElement: false,
                             attrs: {
-                                id: textBlocks.text_blocks[i].block_identifier
+                                id: textBlocks.text_blocks[i].block_identifier,
+                                style: `position:relative;left:${textBlocks.text_blocks[i].text_left}pt;top:${textBlocks.text_blocks[i].text_top}pt`
                             },
                             children: tableArrOfObj
                         })
@@ -268,7 +270,7 @@ const convertJSONToHTML = async () => {
                         voidElement: false,
                         attrs: {
                             id: token.s_id,
-                            style: `font-size:${16}px; font-family:MS Unicode Arial; color:${font_color}`
+                            style: `position:absolute;font-size:${16}pt; font-family:MS Unicode Arial; color:${font_color}; left:${text_left}pt; top:${text_top}pt`
                         },
                         children: [
                             {
@@ -349,8 +351,65 @@ const convertJSONToHTML = async () => {
     });
 }
 
+
+const refactorSourceJSON = (sourceJson) => {
+    let index = -1
+    let refactoredOutput = []
+    sourceJson.data.forEach(src => {
+        src.text_blocks.forEach(val => {
+            if (val.attrib !== 'TABLE' && val.attrib !== 'BOLD,TABLE') {
+                refactoredOutput.push(val)
+            } else if (val.attrib === 'TABLE' || val.attrib === 'BOLD,TABLE') {
+                if (index !== val.table_index) {
+                    refactoredOutput.push({ attrib: 'TABLE_DATA', index: val.table_index, childrens: [val] })
+                    index = val.table_index
+                } else {
+                    refactoredOutput[refactoredOutput.length - 1].childrens.push(val)
+                }
+            }
+        })
+    })
+    return refactoredOutput;
+}
+
+const generateTableArray = (data) => {
+    let tableArray = []
+    let columns = []
+    let rows = []
+    let row_index = 0
+    data.childrens.forEach(child => {
+        if (child.cell_index[0] === 0) {
+            let tgt = tokenized_sentences.map(val => val.tgt)
+            columns.push({
+                val: tgt.join(' '),
+                opts: {
+                    b: true,
+                    sz: child.font_size + 'pt',
+                    fontFamily: child.font_family
+                }
+            })
+        } else if (row_index !== child.cell_index[0]) {
+            let tgt = tokenized_sentences.map(val => val.tgt)
+            if (columns.length) {
+                tableArray.push(columns)
+                columns = []
+            }
+            if (rows.length) {
+                tableArray.push(rows)
+                rows = []
+            }
+            rows.push(tgt.join(' '))
+            row_index = child.cell_index[0]
+        } else if (row_index === child.cell_index[0]) {
+            rows.push(tgt.join(' '))
+        }
+    })
+    return tableArray;
+}
 module.exports = {
     htmlToDocx,
     extractSource,
-    convertJSONToHTML
+    convertJSONToHTML,
+    refactorSourceJSON,
+    generateTableArray
 }
