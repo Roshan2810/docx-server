@@ -1,23 +1,21 @@
 const officegen = require('officegen')
 const fs = require('fs')
 const { generateTableArray } = require('./utils');
-// Create an empty Word object:
+
 let docx = officegen({
     type: 'docx',
     orientation: 'portrait',
     pageMargins: { top: 1000, left: 500, bottom: 1000, right: 1000 }
 })
 
-const testWithOOXML = () => {
+const generateDocx = (fname) => {
 
-    // Officegen calling this function after finishing to generate the docx document:
     docx.on('finalize', function (written) {
         console.log(
             'Finish to create a Microsoft Word document.'
         )
     })
 
-    // Officegen calling this function to report errors:
     docx.on('error', function (err) {
         console.log(err)
     })
@@ -65,7 +63,7 @@ const testWithOOXML = () => {
             docx.createTable(tableArray, tableStyle);
         }
     })
-    let out = fs.createWriteStream('example.docx')
+    let out = fs.createWriteStream(fname)
 
     out.on('error', function (err) {
         console.log(err)
@@ -75,4 +73,4 @@ const testWithOOXML = () => {
     docx.generate(out)
 }
 
-module.exports = { testWithOOXML }
+module.exports = { generateDocx }
