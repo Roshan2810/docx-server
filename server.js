@@ -15,6 +15,7 @@ app.use((req, res, next) => {
 
 app.post('/download-docx', (request, response) => {
     let { fname, jobId, authToken } = request.body
+    let data = ""
     var options = {
         hostname: 'users-auth.anuvaad.org',
         path: `/anuvaad/content-handler/v0/fetch-content?record_id=${jobId}&start_page=0&end_page=0`,
@@ -26,7 +27,6 @@ app.post('/download-docx', (request, response) => {
     };
 
     var req = https.request(options, (res) => {
-        let data = ""
         console.log('statusCode:', res.statusCode);
         console.log('headers:', res.headers);
 
@@ -49,6 +49,7 @@ app.post('/download-docx', (request, response) => {
                 }
             })
         })
+        data = ""
     });
 
     req.on('error', (e) => {

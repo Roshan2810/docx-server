@@ -2,13 +2,13 @@ const officegen = require('officegen')
 const fs = require('fs')
 const { generateTableArray } = require('./utils');
 
-let docx = officegen({
-    type: 'docx',
-    orientation: 'portrait',
-    pageMargins: { top: 1000, left: 1000, bottom: 1000, right: 500 }
-})
-
 const generateDocx = (fname) => {
+
+    let docx = officegen({
+        type: 'docx',
+        orientation: 'portrait',
+        pageMargins: { top: 1000, left: 1000, bottom: 1000, right: 500 }
+    })
 
     docx.on('finalize', function (written) {
         console.log(
@@ -63,8 +63,8 @@ const generateDocx = (fname) => {
             docx.createTable(tableArray, tableStyle);
         }
     })
-    
-    let out = fs.createWriteStream(fname)
+
+    out = fs.createWriteStream(fname)
     out.on('error', function (err) {
         console.log(err)
     })
