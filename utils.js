@@ -1,18 +1,19 @@
-const fs = require('fs');
 
 const refactorSourceJSON = (sourceJson) => {
     let index = -1
     let refactoredOutput = []
-    sourceJson.data.forEach(src => {
-        src.text_blocks.forEach(val => {
+    sourceJson.forEach((src, i) => {
+        sourceJson[i].text_blocks = sortData(src.text_blocks)
+        src.text_blocks && src.text_blocks.forEach(val => {
             if (val.attrib !== 'TABLE' && val.attrib !== 'BOLD,TABLE') {
+                index = -1
                 refactoredOutput.push(val)
             } else if (val.attrib === 'TABLE' || val.attrib === 'BOLD,TABLE') {
                 if (index !== val.table_index) {
-                    refactoredOutput.push({ attrib: 'TABLE_DATA', index: val.table_index, childrens: [val] })
+                    refactoredOutput.push({ attrib: 'TABLE_DATA', index: val.table_index, childrens: [val], text_top: val.text_top })
                     index = val.table_index
                 } else {
-                    refactoredOutput[refactoredOutput.length - 1].childrens.push(val)
+                    refactoredOutput[refactoredOutput.length - 1].childrens && refactoredOutput[refactoredOutput.length - 1].childrens.push(val)
                 }
             }
         })
@@ -20,38 +21,50 @@ const refactorSourceJSON = (sourceJson) => {
     return refactoredOutput;
 }
 
+const sortData = (data) => {
+    let sortedData = Array.isArray(data) ? data.sort((a, b) => a.text_top - b.text_top) : []
+    return sortedData;
+}
 const generateTableArray = (data) => {
     let tableArray = []
     let columns = []
     let rows = []
     let row_index = 0
     data.childrens.forEach(child => {
+        let tgt = child.tokenized_sentences !== undefined ? child.tokenized_sentences.map(val => val.tgt) : []
         if (child.cell_index[0] === 0) {
-            let tgt = tokenized_sentences.map(val => val.tgt)
             columns.push({
                 val: tgt.join(' '),
                 opts: {
-                    b: true,
+                    b: false,
                     sz: child.font_size + 'pt',
                     fontFamily: child.font_family
                 }
             })
         } else if (row_index !== child.cell_index[0]) {
-            let tgt = tokenized_sentences.map(val => val.tgt)
             if (columns.length) {
                 tableArray.push(columns)
-                columns = []
             }
+
             if (rows.length) {
                 tableArray.push(rows)
                 rows = []
             }
+
             rows.push(tgt.join(' '))
             row_index = child.cell_index[0]
         } else if (row_index === child.cell_index[0]) {
             rows.push(tgt.join(' '))
+            columns = []
         }
     })
+    if (rows.length) {
+        tableArray.push(rows);
+        rows = []
+    } else if (columns.length) {
+        tableArray.push(columns)
+        columns = []
+    }
     return tableArray;
 }
 module.exports = {

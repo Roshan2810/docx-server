@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 app.post('/download-docx', (request, response) => {
     let { fname, jobId, authToken } = request.body
     var options = {
-        hostname: 'auth.anuvaad.org',
+        hostname: 'users-auth.anuvaad.org',
         path: `/anuvaad/content-handler/v0/fetch-content?record_id=${jobId}&start_page=0&end_page=0`,
         method: 'GET',
         headers: {
@@ -35,16 +35,18 @@ app.post('/download-docx', (request, response) => {
         });
 
         res.on('end', e => {
-            data = JSON.stringify(refactorSourceJSON(JSON.parse(data)))
+            data = JSON.stringify(refactorSourceJSON(JSON.parse(data).data))
             fs.writeFile('./source.json', data, async (err) => {
-                if (!err) generateDocx(fname);
-                fs.readFile(`./${fname}`, { encoding: 'utf-8' }, (err, data) => {
-                    setTimeout(() => {
-                        response.statusMessage = "Downloaded.."
-                        response.statusCode = 201
-                        response.sendFile(path.join(__dirname, `./${fname}`))
-                    }, 2000)
-                })
+                if (!err) {
+                    generateDocx(fname);
+                    fs.readFile(`./${fname}`, { encoding: 'utf-8' }, (err, data) => {
+                        setTimeout(() => {
+                            response.statusMessage = "Downloaded.."
+                            response.statusCode = 201
+                            response.sendFile(path.join(__dirname, `./${fname}`))
+                        }, 2000)
+                    })
+                }
             })
         })
     });

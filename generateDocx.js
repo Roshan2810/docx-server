@@ -5,7 +5,7 @@ const { generateTableArray } = require('./utils');
 let docx = officegen({
     type: 'docx',
     orientation: 'portrait',
-    pageMargins: { top: 1000, left: 500, bottom: 1000, right: 1000 }
+    pageMargins: { top: 1000, left: 1000, bottom: 1000, right: 500 }
 })
 
 const generateDocx = (fname) => {
@@ -26,7 +26,7 @@ const generateDocx = (fname) => {
     parsedSource.forEach((tokens, i) => {
         const is_bold = tokens.attrib === 'BOLD' ? true : false;
         const is_table = tokens.attrib === 'TABLE_DATA' ? true : false
-        const { font_color, font_size, text_left, text_top, font_family } = tokens
+        const { font_color, font_size, text_left, font_family } = tokens
         let pObj = docx.createP();
         if (!is_table) {
             tokens.tokenized_sentences && tokens.tokenized_sentences.forEach(token => {
@@ -57,14 +57,14 @@ const generateDocx = (fname) => {
             const tableStyle = {
                 tableColWidth: 3261,
                 tableSize: 24,
-                tableAlign: 'left',
+                tableAlign: 'center',
                 borderStyle: borderStyle
             }
             docx.createTable(tableArray, tableStyle);
         }
     })
+    
     let out = fs.createWriteStream(fname)
-
     out.on('error', function (err) {
         console.log(err)
     })
