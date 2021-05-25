@@ -27,34 +27,58 @@ app.post('/download-docx', (request, response) => {
     };
 
     var req = https.request(options, (res) => {
-        console.log('statusCode:', res.statusCode);
-        console.log('headers:', res.headers);
+        if (res.statusCode === 200) {
+            res.on('data', (d) => {
+                data = data + d.toString()
+            });
 
-        res.on('data', (d) => {
-            data = data + d.toString()
-        });
+            res.on('end', e => {
+                data = JSON.stringify(refactorSourceJSON(JSON.parse(data).data))
+                fs.writeFile('./source.json', data, async (err) => {
+                    if (!err) {
+                        try {
+                            generateDocx(fname)
+                            fs.readFile(`./${fname}`, { encoding: 'utf-8' }, (err, data) => {
+                                setTimeout(() => {
+                                    response.sendFile(path.join(__dirname, `./${fname}`))
+                                }, 2000)
+                            })
+                        } catch (e) {
+                            response.status(400).send({
+                                http: {
+                                    status: 400
+                                },
+                                ok: false,
+                                translated_document: "",
+                                why: "Conversion failed"
+                            })
+                        }
 
-        res.on('end', e => {
-            data = JSON.stringify(refactorSourceJSON(JSON.parse(data).data))
-            fs.writeFile('./source.json', data, async (err) => {
-                if (!err) {
-                    generateDocx(fname);
-                    fs.readFile(`./${fname}`, { encoding: 'utf-8' }, (err, data) => {
-                        setTimeout(() => {
-                            response.statusMessage = "Downloaded.."
-                            response.statusCode = 201
-                            response.sendFile(path.join(__dirname, `./${fname}`))
-                        }, 2000)
-                    })
-                }
+                    }
+                })
             })
-        })
-        data = ""
+            data = ""
+        } else {
+            response.status(res.statusCode).send({
+                http: {
+                    status: res.statusCode
+                },
+                ok: false,
+                translated_document: "",
+                why: "Failed fetching data"
+            })
+        }
     });
 
     req.on('error', (e) => {
-        response.statusCode = '302'
-        response.statusMessage = 'Error while conversion'
+        response.status(500).send({
+            http: {
+                status: 500
+            },
+            ok: false,
+            translated_document: "",
+            why: "Try after sometime"
+        })
     });
 
     req.end();

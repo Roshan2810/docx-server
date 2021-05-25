@@ -1,16 +1,14 @@
-
 const refactorSourceJSON = (sourceJson) => {
     let index = -1
     let refactoredOutput = []
     sourceJson.forEach((src, i) => {
-        sourceJson[i].text_blocks = sortData(src.text_blocks)
         src.text_blocks && src.text_blocks.forEach(val => {
-            if (val.attrib !== 'TABLE' && val.attrib !== 'BOLD,TABLE') {
+            if ((val.attrib !== null && val.attrib.indexOf('TABLE') === -1) || val.attrib === null) {
                 index = -1
                 refactoredOutput.push(val)
-            } else if (val.attrib === 'TABLE' || val.attrib === 'BOLD,TABLE') {
+            } else if (val.attrib.indexOf('TABLE') !== -1) {
                 if (index !== val.table_index) {
-                    refactoredOutput.push({ attrib: 'TABLE_DATA', index: val.table_index, childrens: [val], text_top: val.text_top })
+                    refactoredOutput.push({ attrib: 'TABLE_DATA', index: val.table_index, childrens: [val], text_top: val.text_top, page_info: val.page_info })
                     index = val.table_index
                 } else {
                     refactoredOutput[refactoredOutput.length - 1].childrens && refactoredOutput[refactoredOutput.length - 1].childrens.push(val)
@@ -18,11 +16,15 @@ const refactorSourceJSON = (sourceJson) => {
             }
         })
     })
+    refactoredOutput = sortData(refactoredOutput)
     return refactoredOutput;
 }
 
 const sortData = (data) => {
-    let sortedData = Array.isArray(data) ? data.sort((a, b) => a.text_top - b.text_top) : []
+    let sortedData = Array.isArray(data) ? data.sort((a, b) => {
+        if (a['page_info']['page_no'] === b['page_info']['page_no'])
+            return a.text_top - b.text_top
+    }) : []
     return sortedData;
 }
 const generateTableArray = (data) => {
@@ -67,6 +69,7 @@ const generateTableArray = (data) => {
     }
     return tableArray;
 }
+
 module.exports = {
     refactorSourceJSON,
     generateTableArray

@@ -24,7 +24,7 @@ const generateDocx = (fname) => {
     let parsedSource = JSON.parse(sourceJson)
 
     parsedSource.forEach((tokens, i) => {
-        const is_bold = tokens.attrib === 'BOLD' ? true : false;
+        const is_bold = (tokens.attrib !== null && tokens.attrib.indexOf('BOLD') !== -1) ? true : false;
         const is_table = tokens.attrib === 'TABLE_DATA' ? true : false
         const { font_color, font_size, text_left, font_family } = tokens
         let pObj = docx.createP();
